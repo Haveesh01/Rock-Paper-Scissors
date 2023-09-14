@@ -1,0 +1,87 @@
+body{
+  background-color: bisque;
+}
+
+.css-para{
+  font-family: teko,Arial;
+  font-size: 60px;
+  font-weight: 700;
+  margin:0px;
+  justify-content: center;
+}
+
+.css-para-grid{
+  display:grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.move-button{
+  background-color: transparent;
+  border: 5px solid black;
+  padding:15px;
+  border-radius: 35px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.move-icon{
+  height: 100px;
+}
+
+.button-grid{
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.css-display{
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-family: teko,Arial;
+  font-size:40px;
+  font-weight: 500px;
+}
+
+.css-result{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: teko,Arial;
+  font-size:40px;
+  font-weight: 500px;
+}
+
+.css-score{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: teko,Arial;
+  font-size:40px;
+  font-weight: 500px;
+}
+.result-grid{
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-button{
+  margin-top: 0px;
+  padding:15px 10px 15px 10px;
+  font-family: teko,Arial;
+  font-size: 20px;
+  background-color:rgb(222, 117, 30);
+  border-radius: 10px;
+  border: 5px solid black;
+  cursor:pointer;
+}
+
+.reset-grid{
+  display: grid;
+  grid-template-columns: 250px;
+  justify-content: center;
+  align-items: center;
+}

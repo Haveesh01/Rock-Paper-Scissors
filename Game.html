@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Rock Paper Scissors
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@500;700&family=Teko:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" href="Styles/Stylesheet.css">
+    </head>
+  <body>
+
+    <div class="css-para-grid">
+      <p class="css-para">Rock Paper Scissors </p>
+    </div>
+
+    <div class="button-grid">
+      <button onclick="
+        playerMove('Rock');
+        computerMove();
+        finalResult();
+        updateScore();
+      " class="move-button">
+      <img src="Images/Rock-emoji.png" class="move-icon">
+      </button>
+
+      <button onclick="
+        playerMove('Paper');
+        computerMove();
+        finalResult();
+        updateScore();
+      " class="move-button">
+      <img src="Images/Paper-emoji.png" class="move-icon">
+      </button>
+
+      <button onclick="
+        playerMove('Scissor');
+        computerMove();
+        finalResult();
+        updateScore();
+      " class="move-button">
+      <img src="Images/Scissor-emoji.png" class="move-icon">
+      </button>
+    </div>
+
+    <div class="result-grid">
+      <p class="js-display css-display"></p>
+
+      <p class="js-result css-result"></p>
+
+      <p class="js-score css-score"> Wins:0 Lost:0 Tie:0 </p>
+    </div>
+
+    <div class="reset-grid">
+      <button onclick="
+        resetScore();
+      " class="reset-button">
+      Reset Score
+    </button>
+    </div>
+
+    <script src="Script/Main.js"></script>
+  </body>
+</html>
